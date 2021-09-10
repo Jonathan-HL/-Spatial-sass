@@ -6228,4 +6228,42 @@ section:nth-of-type(2) .noir {
   margin: 0 5px;
 }
 
+section:nth-of-type(3) div {
+  padding: 0;
+}
+section:nth-of-type(3) div:nth-of-type(1) {
+  padding-left: 50px;
+}
+section:nth-of-type(3) div:nth-of-type(1) h3 {
+  color: #ABACB0;
+  font-weight: lighter;
+}
+section:nth-of-type(3) .row1 {
+  display: flex;
+}
+section:nth-of-type(3) .row1 p {
+  text-align: end;
+}
+section:nth-of-type(3) .row1 h4 {
+  text-align: end;
+}
+section:nth-of-type(3) .row1 h5 {
+  text-align: end;
+}
+section:nth-of-type(3) .row1 .v2 {
+  text-align: start;
+}
+section:nth-of-type(3) .row1 img {
+  border-radius: 50%;
+  border: 5px solid #D6D8D5;
+}
+section:nth-of-type(3) .row1 .droite {
+  float: right;
+  margin: 20px 20px;
+}
+section:nth-of-type(3) .row1 .gauche {
+  float: left;
+  margin: 20px 20px;
+}
+
 /*# sourceMappingURL=app.css.map */
