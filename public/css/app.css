@@ -6178,4 +6178,54 @@ section div p {
   color: #ABACB0;
 }
 
+section:nth-of-type(2) {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section:nth-of-type(2) h2 {
+  color: #484848;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+section:nth-of-type(2) h3 {
+  color: #ABACB0;
+  font-weight: lighter;
+}
+section:nth-of-type(2) .row {
+  display: flex;
+  margin: 0 15%;
+}
+section:nth-of-type(2) .row h4 {
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+}
+section:nth-of-type(2) div {
+  padding: 15px;
+}
+section:nth-of-type(2) img {
+  width: 100%;
+}
+section:nth-of-type(2) .buttonss {
+  padding-bottom: 50px;
+}
+section:nth-of-type(2) .rouge {
+  border: none;
+  border-radius: 5px;
+  background-color: #F32853;
+  color: white;
+  padding: 20px 35px;
+  margin: 0 5px;
+}
+section:nth-of-type(2) .noir {
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 20px 35px;
+  margin: 0 5px;
+}
+
 /*# sourceMappingURL=app.css.map */
