@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Robot";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6110,6 +6114,49 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: Robot;
+}
+
+header {
+  background-image: url(../images/bannersombre.png);
+  background-attachment: fixed;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+  padding-top: 20px;
+}
+header nav span {
+  color: whitesmoke;
+}
+header .liens {
+  margin: auto 0;
+}
+header a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 10px;
+}
+header .titre {
+  padding-top: 10%;
+  margin: 0 30%;
+  text-transform: uppercase;
+}
+header .titre button {
+  border: none;
+  border-radius: 5px;
+  background-color: #F32853;
+  color: white;
+  margin-top: 20px;
+  padding: 20px 30px;
 }
 
 /*# sourceMappingURL=app.css.map */
