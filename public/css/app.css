@@ -6294,4 +6294,18 @@ section:nth-of-type(4) div button {
   padding: 15px 30px;
 }
 
+footer {
+  text-align: center;
+  padding: 50px;
+}
+footer a {
+  color: #ABACB0;
+  font-size: 40px;
+  margin: 30px;
+}
+footer p {
+  color: #ABACB0;
+  margin-top: 50px;
+}
+
 /*# sourceMappingURL=app.css.map */
