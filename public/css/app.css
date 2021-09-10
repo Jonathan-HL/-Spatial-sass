@@ -6159,4 +6159,23 @@ header .titre button {
   padding: 20px 30px;
 }
 
+section:first-of-type {
+  display: flex;
+  margin: 0 15%;
+}
+section div {
+  flex: 1;
+  padding: 50px;
+}
+section div h2 {
+  font-size: 40px;
+}
+section div span {
+  color: #ABACB0;
+  font-size: 20px;
+}
+section div p {
+  color: #ABACB0;
+}
+
 /*# sourceMappingURL=app.css.map */
