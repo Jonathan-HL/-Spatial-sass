@@ -6128,6 +6128,11 @@ header {
   text-align: center;
   color: white;
 }
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  header {
+    height: 80vh;
+  }
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -6150,6 +6155,17 @@ header .titre {
   margin: 0 30%;
   text-transform: uppercase;
 }
+@media screen and (max-width: 600px) {
+  header .titre {
+    padding-top: 50%;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  header .titre {
+    padding-top: 20%;
+  }
+}
 header .titre button {
   border: none;
   border-radius: 5px;
@@ -6159,13 +6175,28 @@ header .titre button {
   padding: 20px 30px;
 }
 
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+}
 section:first-of-type {
   display: flex;
   margin: 0 15%;
 }
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section:first-of-type {
+    margin: 0;
+  }
+}
 section div {
   flex: 1;
   padding: 50px;
+}
+@media screen and (max-width: 600px) {
+  section div {
+    padding: 0;
+  }
 }
 section div h2 {
   font-size: 40px;
@@ -6178,6 +6209,16 @@ section div p {
   color: #ABACB0;
 }
 
+@media screen and (max-width: 600px) {
+  section {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  div {
+    padding: 0;
+  }
+}
 section:nth-of-type(2) {
   background-color: whitesmoke;
   display: flex;
@@ -6197,6 +6238,16 @@ section:nth-of-type(2) .row {
   display: flex;
   margin: 0 15%;
 }
+@media screen and (max-width: 600px) {
+  section:nth-of-type(2) .row {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section:nth-of-type(2) .row {
+    margin: 0;
+  }
+}
 section:nth-of-type(2) .row h4 {
   background-color: white;
   padding: 20px;
@@ -6211,6 +6262,12 @@ section:nth-of-type(2) img {
 section:nth-of-type(2) .buttonss {
   padding-bottom: 50px;
 }
+@media screen and (max-width: 600px) {
+  section:nth-of-type(2) .buttonss {
+    display: flex;
+    padding-top: 0;
+  }
+}
 section:nth-of-type(2) .rouge {
   border: none;
   border-radius: 5px;
@@ -6218,6 +6275,11 @@ section:nth-of-type(2) .rouge {
   color: white;
   padding: 20px 35px;
   margin: 0 5px;
+}
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section:nth-of-type(2) .rouge {
+    margin-right: 20%;
+  }
 }
 section:nth-of-type(2) .noir {
   border: none;
@@ -6230,9 +6292,15 @@ section:nth-of-type(2) .noir {
 
 section:nth-of-type(3) div {
   padding: 0;
+  padding-bottom: 40px;
 }
 section:nth-of-type(3) div:nth-of-type(1) {
   padding-left: 50px;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) div:nth-of-type(1) {
+    padding: 0;
+  }
 }
 section:nth-of-type(3) div:nth-of-type(1) h3 {
   color: #ABACB0;
@@ -6241,17 +6309,48 @@ section:nth-of-type(3) div:nth-of-type(1) h3 {
 section:nth-of-type(3) .row1 {
   display: flex;
 }
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) .row1 {
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section:nth-of-type(3) .row1 {
+    flex-direction: column;
+  }
+}
 section:nth-of-type(3) .row1 p {
   text-align: end;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) .row1 p {
+    text-align: start;
+  }
 }
 section:nth-of-type(3) .row1 h4 {
   text-align: end;
 }
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) .row1 h4 {
+    text-align: start;
+  }
+}
 section:nth-of-type(3) .row1 h5 {
   text-align: end;
 }
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) .row1 h5 {
+    text-align: start;
+  }
+}
 section:nth-of-type(3) .row1 .v2 {
   text-align: start;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(3) .row1 .v2 {
+    text-align: end;
+  }
 }
 section:nth-of-type(3) .row1 img {
   border-radius: 50%;
@@ -6271,6 +6370,16 @@ section:nth-of-type(4) {
   background-position: center;
   height: 45vh;
   color: white;
+}
+@media screen and (max-width: 600px) {
+  section:nth-of-type(4) {
+    padding: 50px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  section:nth-of-type(4) {
+    padding: 150px;
+  }
 }
 section:nth-of-type(4) div {
   text-align: center;
@@ -6298,6 +6407,11 @@ footer {
   text-align: center;
   padding: 50px;
 }
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 30px;
+  }
+}
 footer a {
   color: #ABACB0;
   font-size: 40px;
@@ -6306,6 +6420,11 @@ footer a {
 footer p {
   color: #ABACB0;
   margin-top: 50px;
+}
+@media screen and (max-width: 600px) {
+  footer p {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

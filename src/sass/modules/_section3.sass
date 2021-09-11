@@ -2,21 +2,37 @@ section
     &:nth-of-type(3)
         div
             padding: 0
+            padding-bottom: 40px
             &:nth-of-type(1)
              padding-left: 50px
+             @media screen and (max-width:600px)
+                 padding: 0
              h3
                  color: #ABACB0
                  font-weight: lighter
         .row1
             display: flex
+            @media screen and (max-width:600px)
+                flex-direction: column
+                padding: 0px 10px
+            @media screen and (min-width:720px) and (max-width:1024px)
+                flex-direction: column
             p
                 text-align: end
+                @media screen and (max-width:600px)
+                    text-align: start
             h4
                 text-align: end
+                @media screen and (max-width:600px)
+                    text-align: start
             h5
                 text-align: end
+                @media screen and (max-width:600px)
+                    text-align: start
             .v2
-                text-align: start       
+                text-align: start
+                @media screen and (max-width:600px)
+                    text-align: end     
             img
                 border-radius: 50%
                 border:5px solid #D6D8D5
@@ -26,5 +42,8 @@ section
             .gauche
                 float: left
                 margin: 20px 20px
+
+            
+                        
                   
          
